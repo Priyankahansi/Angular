@@ -5,8 +5,8 @@ import { FirstComponent } from './Mycomponent/first/first.component';
 import { SecondComponent } from './Mycomponent/second/second.component';
 
 const routes:Routes = [
-  {path:"first",component:FirstComponent},
-  {path:"second",component:SecondComponent}
+  {path:"form",component:FirstComponent},
+  {path:"dashboard",component:SecondComponent}
 ];
 
 
