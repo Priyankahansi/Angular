@@ -163,10 +163,15 @@ select{
 }
 
 .cancelButton{	
-text-align: center;
+
+	position: absolute;
+	right: 30%;
+	bottom: -20.22%;
+  text-align: center;
+/* text-align: center; */
 text-decoration: none;
-margin-left: 640px;
-border: none;
+
+
 }
 @media only screen and(max-width:960px){
 

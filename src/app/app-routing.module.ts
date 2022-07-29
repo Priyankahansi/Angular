@@ -6,7 +6,8 @@ import { SecondComponent } from './Mycomponent/second/second.component';
 
 const routes:Routes = [
   {path:"form",component:FirstComponent},
-  {path:"dashboard",component:SecondComponent}
+  {path:"dashboard",component:SecondComponent},
+  {path:"",redirectTo:"/dashboard",pathMatch:"full"}
 ];
 
 

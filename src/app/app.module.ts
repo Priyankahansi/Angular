@@ -6,21 +6,24 @@ import { AppComponent } from './app.component';
 import { FirstComponent } from './Mycomponent/first/first.component';
 import { SecondComponent } from './Mycomponent/second/second.component';
 import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from '@angular/common/http';
 
 const routes:Routes = [
   {path:"first",component:FirstComponent},
-  {path:"second",component:SecondComponent}
+  {path:"second",component:SecondComponent},
+  {path:"/",component:SecondComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+     SecondComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule
   ],
   providers: [],
